@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>163 Days to Web Dev Mastery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="hdr">
+      <div class="hdr-inner">
+        <div class="logo">
+          163 Days to Web Dev Mastery <em>· free resources only</em>
+        </div>
+        <div class="hdr-stats">
+          <div class="hstat">
+            <div class="hstat-v" id="h-done">0/163</div>
+            <div class="hstat-l">days done</div>
+          </div>
+          <div class="hstat">
+            <div class="hstat-v" id="h-streak">0 🔥</div>
+            <div class="hstat-l">streak</div>
+          </div>
+          <div class="hstat">
+            <div class="hstat-v" id="h-pct">0%</div>
+            <div class="hstat-l">complete</div>
+          </div>
+        </div>
+        <div class="hdr-mini">
+          <div class="hdr-mini-item"><span id="hm-done">0</span>/163</div>
+          <div class="hdr-mini-item" style="opacity: 0.25">·</div>
+          <div class="hdr-mini-item"><span id="hm-pct">0%</span></div>
+          <div class="hdr-mini-item" style="opacity: 0.25">·</div>
+          <div class="hdr-mini-item"><span id="hm-streak">0</span> 🔥</div>
+        </div>
+      </div>
+      <div class="pbar-wrap"><div class="pbar-segs" id="pbar-segs"></div></div>
+    </div>
+
+    <div class="body">
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="content">
+        <div class="ph-tabs" id="ph-tabs"></div>
+        <div id="phase-content"></div>
+      </main>
+    </div>
+
+    <script src="node.js"></script>
+  </body>
+</html>
